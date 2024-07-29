@@ -103,5 +103,8 @@ public class PharmacyScript extends TestBase{
 		Thread.sleep(6000);
 		//driver.manage().deleteAllCookies();
 		Thread.sleep(3000);
+		System.out.println("Code Done Sucessfully");
+		System.out.println("Now you can add this file to staging");
+		System.out.println("Staging-->commit-->github-->remoteRepository-->push");
 	}
 }
