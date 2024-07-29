@@ -36,7 +36,9 @@ public class TestBase {
 
 	@AfterMethod
 	public void tearDown() {
+		System.out.println("***Browser is closing be careful..!!***");
 		driver.close();
+		
 	}
 	
 	public void captureScreenshot(String sName) throws IOException {		

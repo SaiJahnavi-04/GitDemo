@@ -106,5 +106,9 @@ public class PharmacyScript extends TestBase{
 		System.out.println("Code Done Sucessfully");
 		System.out.println("Now you can add this file to staging");
 		System.out.println("Staging-->commit-->github-->remoteRepository-->push");
+		
+		System.out.println("Its GitSttuff changing please pull it to GitDemo");
+		System.out.println("Happy Learning");
+		System.out.println("Please go on...!!");
 	}
 }
